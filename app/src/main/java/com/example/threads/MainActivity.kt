@@ -36,15 +36,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun buttonClick(view: View) {
-//        val t1 = WorkerThread()
-//        t1.start()
         doSomethingLong()
     }
-
-//    class WorkerThread : Thread() {
-//        private var main: MainActivity = MainActivity()
-//        override fun run() {
-//            main.doSomethingLong()
-//        }
-//    }
 }
